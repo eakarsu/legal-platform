@@ -1,0 +1,158 @@
+[
+  {
+    "id": "ai-legal-settlement-fund-distribution-reconciliation",
+    "name": "Legal settlement fund distribution reconciliation",
+    "sourceProject": "ai-legal-settlement-fund-distribution-reconciliation",
+    "services": []
+  },
+  {
+    "id": "ai-outside-counsel-legal-invoice-audit",
+    "name": "Outside counsel legal invoice audit",
+    "sourceProject": "ai-outside-counsel-legal-invoice-audit",
+    "services": []
+  },
+  {
+    "id": "ai-patent-license-royalty-audit",
+    "name": "Patent license royalty audit",
+    "sourceProject": "ai-patent-license-royalty-audit",
+    "services": []
+  },
+  {
+    "id": "AIBailBondRiskAssessor",
+    "name": "Bail bond risk assessor",
+    "sourceProject": "AIBailBondRiskAssessor",
+    "services": []
+  },
+  {
+    "id": "AIConsumerComplaintResolutionAgent",
+    "name": "Consumer complaint resolution agent",
+    "sourceProject": "AIConsumerComplaintResolutionAgent",
+    "services": []
+  },
+  {
+    "id": "AIContractLifecycleManager",
+    "name": "Contract lifecycle manager",
+    "sourceProject": "AIContractLifecycleManager",
+    "services": []
+  },
+  {
+    "id": "AIContractNegotiationAssistant",
+    "name": "Contract negotiation assistant",
+    "sourceProject": "AIContractNegotiationAssistant",
+    "services": []
+  },
+  {
+    "id": "AICourtReportingLegalTranscription",
+    "name": "Court reporting legal transcription",
+    "sourceProject": "AICourtReportingLegalTranscription",
+    "services": []
+  },
+  {
+    "id": "AIDigitalcasemanager",
+    "name": "Digitalcasemanager",
+    "sourceProject": "AIDigitalcasemanager",
+    "services": []
+  },
+  {
+    "id": "AIDivorceFamilyLawNavigator",
+    "name": "Divorce family law navigator",
+    "sourceProject": "AIDivorceFamilyLawNavigator",
+    "services": []
+  },
+  {
+    "id": "AIeDiscoverySystem",
+    "name": "E discovery system",
+    "sourceProject": "AIeDiscoverySystem",
+    "services": []
+  },
+  {
+    "id": "AIEstatePlanningDigitalLegacy",
+    "name": "Estate planning digital legacy",
+    "sourceProject": "AIEstatePlanningDigitalLegacy",
+    "services": []
+  },
+  {
+    "id": "AIImmigrationCaseManager",
+    "name": "Immigration case manager",
+    "sourceProject": "AIImmigrationCaseManager",
+    "services": []
+  },
+  {
+    "id": "AINotaryDocumentVerification",
+    "name": "Notary document verification",
+    "sourceProject": "AINotaryDocumentVerification",
+    "services": []
+  },
+  {
+    "id": "AIPatentResearchFiling",
+    "name": "Patent research filing",
+    "sourceProject": "AIPatentResearchFiling",
+    "services": []
+  },
+  {
+    "id": "AIPublicRecordsSearchAgent",
+    "name": "Public records search agent",
+    "sourceProject": "AIPublicRecordsSearchAgent",
+    "services": []
+  },
+  {
+    "id": "AIRefugeeAsylumCaseManager",
+    "name": "Refugee asylum case manager",
+    "sourceProject": "AIRefugeeAsylumCaseManager",
+    "services": []
+  },
+  {
+    "id": "AISmallClaimsCourtGuide",
+    "name": "Small claims court guide",
+    "sourceProject": "AISmallClaimsCourtGuide",
+    "services": []
+  },
+  {
+    "id": "AISportsAgentContractAnalyzer",
+    "name": "Sports agent contract analyzer",
+    "sourceProject": "AISportsAgentContractAnalyzer",
+    "services": []
+  },
+  {
+    "id": "AITenantRightsAdvisor",
+    "name": "Tenant rights advisor",
+    "sourceProject": "AITenantRightsAdvisor",
+    "services": []
+  },
+  {
+    "id": "AITrademarkBrandProtectionMonitor",
+    "name": "Trademark brand protection monitor",
+    "sourceProject": "AITrademarkBrandProtectionMonitor",
+    "services": []
+  },
+  {
+    "id": "firmflow-ai",
+    "name": "Firmflow ai",
+    "sourceProject": "firmflow-ai",
+    "services": []
+  },
+  {
+    "id": "legalForms",
+    "name": "Legal forms",
+    "sourceProject": "legalForms",
+    "services": []
+  },
+  {
+    "id": "livomobile",
+    "name": "Livomobile",
+    "sourceProject": "livomobile",
+    "services": []
+  },
+  {
+    "id": "smallLawFirm",
+    "name": "Small law firm",
+    "sourceProject": "smallLawFirm",
+    "services": []
+  },
+  {
+    "id": "smallLawFirm_salesforce",
+    "name": "Small law firm salesforce",
+    "sourceProject": "smallLawFirm_salesforce",
+    "services": []
+  }
+]

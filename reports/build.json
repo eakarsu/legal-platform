@@ -1,0 +1,9 @@
+{
+  "app": "legal-platform",
+  "features": 575,
+  "sourceApps": 26,
+  "calculatorEngines": 0,
+  "registryHash": "d20ba4683b9a78b2e164327e2ea14b556067ea0fd55a8abc65c7218c237bf168",
+  "builtAt": "2026-09-07T22:05:21.053Z",
+  "status": "built"
+}

@@ -1,0 +1,1750 @@
+[
+  {
+    "id": "ai-general",
+    "title": "General assistance",
+    "group": "AI assistants",
+    "path": "/assistants/ai-general",
+    "featureIds": [
+      "leads",
+      "calendar",
+      "deadlines",
+      "conflicts",
+      "case-analysis",
+      "glossary",
+      "time",
+      "custody",
+      "custody-assessment",
+      "child-support",
+      "alimony",
+      "asset-division",
+      "property",
+      "parenting",
+      "mediation",
+      "family-filing",
+      "family-rights",
+      "family-timeline",
+      "family-advisor",
+      "wills",
+      "trust-planning",
+      "power-of-attorney",
+      "healthcare-directives",
+      "beneficiaries",
+      "digital-assets",
+      "estate-advisor",
+      "long-term-care",
+      "account-consolidation",
+      "family-meetings",
+      "international-estates",
+      "visas",
+      "immigration-forms",
+      "immigration-interview",
+      "immigration-plan",
+      "immigration-timeline",
+      "immigration-analytics",
+      "claims-jurisdiction",
+      "complaints",
+      "hearing-prep",
+      "court-procedure",
+      "witness-statements",
+      "appeals",
+      "collection",
+      "limitations",
+      "portal-assistant",
+      "intake-forms",
+      "website",
+      "tenant-notices",
+      "eviction-defense",
+      "rent-review",
+      "repair-issues",
+      "tenant-advisor",
+      "clauses",
+      "obligations",
+      "contract-approvals",
+      "amendments",
+      "renewals",
+      "negotiations",
+      "contract-benchmarks",
+      "plain-language",
+      "negotiation-playbooks",
+      "contract-advisor",
+      "claimant-identity-registry",
+      "claim-form-ingestion",
+      "damage-category-calculation",
+      "pro-rata-allocation",
+      "administration-expense",
+      "distribution-file-generation",
+      "residual-fund-calculation",
+      "firm-and-engagement-library",
+      "timekeeper-authorization",
+      "legal-owner-approval-workflow",
+      "firm-matter-and-savings-analytics",
+      "patent-license-library",
+      "patent-family-registry",
+      "licensed-product-mapping",
+      "per-unit-calculation",
+      "minimum-guarantee",
+      "sublicense-income-share",
+      "licensee-examination-workflow",
+      "patent-product-analytics",
+      "complaint-auto-routing-triage",
+      "tools-complaint-triage",
+      "chat",
+      "review-contract",
+      "generate-clause",
+      "compare-contracts",
+      "negotiate",
+      "extract-exhibit-metadata",
+      "deposition-summary",
+      "generate-index",
+      "new",
+      "assessments",
+      "new-tools",
+      "review-sets",
+      "review-assignments",
+      "governance",
+      "witness-vetting",
+      "claims-generator",
+      "portfolio-analytics",
+      "competitor-track",
+      "uspto-status",
+      "pct-coordinator",
+      "literature-search",
+      "inventor-tracking",
+      "claim-infringement-checker",
+      "claims-without-claim",
+      "property-ownership-chain",
+      "coi-cite-memo",
+      "hearing-prep-brief",
+      "executive-brief",
+      "interpreter-match",
+      "country-conditions-summary",
+      "deportation-relief-options",
+      "family-reunification-plan",
+      "attorney-handoff-summary",
+      "partner-org-referral",
+      "donor-impact-report",
+      "court-calendar-conflicts",
+      "coi-briefer-bundle",
+      "hearing-qa-simulator",
+      "credible-fear-interview-prep",
+      "market-valuation-engine-trained-on-historical-contracts",
+      "ai-driven-player-valuation-models-page-exists-no",
+      "enforce",
+      "domain",
+      "legal",
+      "triage",
+      "assess",
+      "market-expansion",
+      "cease-desist",
+      "hub",
+      "domain-watcher",
+      "api-ai-communications-suggestions",
+      "api-document-summary-recent",
+      "livomobile"
+    ],
+    "ai": true,
+    "representativeId": "leads",
+    "description": "One assistant for 136 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "leads",
+        "title": "Leads & intake",
+        "originalPath": "/features/leads"
+      },
+      {
+        "id": "calendar",
+        "title": "Calendar & court dates",
+        "originalPath": "/features/calendar"
+      },
+      {
+        "id": "deadlines",
+        "title": "Deadlines & reminders",
+        "originalPath": "/features/deadlines"
+      },
+      {
+        "id": "conflicts",
+        "title": "Conflict checks",
+        "originalPath": "/features/conflicts"
+      },
+      {
+        "id": "case-analysis",
+        "title": "Case assessment & strategy",
+        "originalPath": "/features/case-analysis"
+      },
+      {
+        "id": "glossary",
+        "title": "Legal glossary",
+        "originalPath": "/features/glossary"
+      },
+      {
+        "id": "time",
+        "title": "Time tracking",
+        "originalPath": "/features/time"
+      },
+      {
+        "id": "custody",
+        "title": "Child custody planning",
+        "originalPath": "/features/custody"
+      },
+      {
+        "id": "custody-assessment",
+        "title": "Custody scenario assessment",
+        "originalPath": "/features/custody-assessment"
+      },
+      {
+        "id": "child-support",
+        "title": "Child support planning",
+        "originalPath": "/features/child-support"
+      },
+      {
+        "id": "alimony",
+        "title": "Alimony planning",
+        "originalPath": "/features/alimony"
+      },
+      {
+        "id": "asset-division",
+        "title": "Asset division",
+        "originalPath": "/features/asset-division"
+      },
+      {
+        "id": "property",
+        "title": "Property & valuations",
+        "originalPath": "/features/property"
+      },
+      {
+        "id": "parenting",
+        "title": "Parenting plans & coordination",
+        "originalPath": "/features/parenting"
+      },
+      {
+        "id": "mediation",
+        "title": "Mediation",
+        "originalPath": "/features/mediation"
+      },
+      {
+        "id": "family-filing",
+        "title": "Family court filing guidance",
+        "originalPath": "/features/family-filing"
+      },
+      {
+        "id": "family-rights",
+        "title": "Family law & state guidance",
+        "originalPath": "/features/family-rights"
+      },
+      {
+        "id": "family-timeline",
+        "title": "Divorce timeline",
+        "originalPath": "/features/family-timeline"
+      },
+      {
+        "id": "family-advisor",
+        "title": "Family case advisor",
+        "originalPath": "/features/family-advisor"
+      },
+      {
+        "id": "wills",
+        "title": "Wills",
+        "originalPath": "/features/wills"
+      },
+      {
+        "id": "trust-planning",
+        "title": "Trust planning",
+        "originalPath": "/features/trust-planning"
+      },
+      {
+        "id": "power-of-attorney",
+        "title": "Power of attorney",
+        "originalPath": "/features/power-of-attorney"
+      },
+      {
+        "id": "healthcare-directives",
+        "title": "Healthcare directives",
+        "originalPath": "/features/healthcare-directives"
+      },
+      {
+        "id": "beneficiaries",
+        "title": "Beneficiaries & suitability",
+        "originalPath": "/features/beneficiaries"
+      },
+      {
+        "id": "digital-assets",
+        "title": "Digital assets & accounts",
+        "originalPath": "/features/digital-assets"
+      },
+      {
+        "id": "estate-advisor",
+        "title": "Estate planning advisor",
+        "originalPath": "/features/estate-advisor"
+      },
+      {
+        "id": "long-term-care",
+        "title": "Long-term care planning",
+        "originalPath": "/features/long-term-care"
+      },
+      {
+        "id": "account-consolidation",
+        "title": "Account consolidation",
+        "originalPath": "/features/account-consolidation"
+      },
+      {
+        "id": "family-meetings",
+        "title": "Family meetings",
+        "originalPath": "/features/family-meetings"
+      },
+      {
+        "id": "international-estates",
+        "title": "International estate planning",
+        "originalPath": "/features/international-estates"
+      },
+      {
+        "id": "visas",
+        "title": "Visa categories & pathways",
+        "originalPath": "/features/visas"
+      },
+      {
+        "id": "immigration-forms",
+        "title": "Immigration form assistance",
+        "originalPath": "/features/immigration-forms"
+      },
+      {
+        "id": "immigration-interview",
+        "title": "Immigration interview preparation",
+        "originalPath": "/features/immigration-interview"
+      },
+      {
+        "id": "immigration-plan",
+        "title": "Immigration case planning",
+        "originalPath": "/features/immigration-plan"
+      },
+      {
+        "id": "immigration-timeline",
+        "title": "Immigration processing scenarios",
+        "originalPath": "/features/immigration-timeline"
+      },
+      {
+        "id": "immigration-analytics",
+        "title": "Immigration case comparisons",
+        "originalPath": "/features/immigration-analytics"
+      },
+      {
+        "id": "claims-jurisdiction",
+        "title": "Small claims jurisdiction",
+        "originalPath": "/features/claims-jurisdiction"
+      },
+      {
+        "id": "complaints",
+        "title": "Small claims complaints",
+        "originalPath": "/features/complaints"
+      },
+      {
+        "id": "hearing-prep",
+        "title": "Hearing preparation & coaching",
+        "originalPath": "/features/hearing-prep"
+      },
+      {
+        "id": "court-procedure",
+        "title": "Court procedure checklists",
+        "originalPath": "/features/court-procedure"
+      },
+      {
+        "id": "witness-statements",
+        "title": "Witness statements",
+        "originalPath": "/features/witness-statements"
+      },
+      {
+        "id": "appeals",
+        "title": "Appeal assessment",
+        "originalPath": "/features/appeals"
+      },
+      {
+        "id": "collection",
+        "title": "Judgment collection",
+        "originalPath": "/features/collection"
+      },
+      {
+        "id": "limitations",
+        "title": "Limitation period review",
+        "originalPath": "/features/limitations"
+      },
+      {
+        "id": "portal-assistant",
+        "title": "Client portal assistant",
+        "originalPath": "/features/portal-assistant"
+      },
+      {
+        "id": "intake-forms",
+        "title": "Intake form builder",
+        "originalPath": "/features/intake-forms"
+      },
+      {
+        "id": "website",
+        "title": "Firm website generator",
+        "originalPath": "/features/website"
+      },
+      {
+        "id": "tenant-notices",
+        "title": "Tenant notices",
+        "originalPath": "/features/tenant-notices"
+      },
+      {
+        "id": "eviction-defense",
+        "title": "Eviction defense preparation",
+        "originalPath": "/features/eviction-defense"
+      },
+      {
+        "id": "rent-review",
+        "title": "Rent increase review",
+        "originalPath": "/features/rent-review"
+      },
+      {
+        "id": "repair-issues",
+        "title": "Repairs & habitability issues",
+        "originalPath": "/features/repair-issues"
+      },
+      {
+        "id": "tenant-advisor",
+        "title": "Tenant rights questions",
+        "originalPath": "/features/tenant-advisor"
+      },
+      {
+        "id": "clauses",
+        "title": "Clause library",
+        "originalPath": "/features/clauses"
+      },
+      {
+        "id": "obligations",
+        "title": "Contract obligations",
+        "originalPath": "/features/obligations"
+      },
+      {
+        "id": "contract-approvals",
+        "title": "Contract approval reviews",
+        "originalPath": "/features/contract-approvals"
+      },
+      {
+        "id": "amendments",
+        "title": "Contract amendments",
+        "originalPath": "/features/amendments"
+      },
+      {
+        "id": "renewals",
+        "title": "Contract renewals",
+        "originalPath": "/features/renewals"
+      },
+      {
+        "id": "negotiations",
+        "title": "Negotiation rounds & simulations",
+        "originalPath": "/features/negotiations"
+      },
+      {
+        "id": "contract-benchmarks",
+        "title": "Standard terms & market comparison",
+        "originalPath": "/features/contract-benchmarks"
+      },
+      {
+        "id": "plain-language",
+        "title": "Plain-language explanations",
+        "originalPath": "/features/plain-language"
+      },
+      {
+        "id": "negotiation-playbooks",
+        "title": "Negotiation playbooks & fallback matrix",
+        "originalPath": "/features/negotiation-playbooks"
+      },
+      {
+        "id": "contract-advisor",
+        "title": "Contract questions",
+        "originalPath": "/features/contract-advisor"
+      },
+      {
+        "id": "claimant-identity-registry",
+        "title": "Claimant identity registry",
+        "originalPath": "/features/claimant-identity-registry"
+      },
+      {
+        "id": "claim-form-ingestion",
+        "title": "Claim form ingestion",
+        "originalPath": "/features/claim-form-ingestion"
+      },
+      {
+        "id": "damage-category-calculation",
+        "title": "Damage category calculation",
+        "originalPath": "/features/damage-category-calculation"
+      },
+      {
+        "id": "pro-rata-allocation",
+        "title": "Pro-rata allocation",
+        "originalPath": "/features/pro-rata-allocation"
+      },
+      {
+        "id": "administration-expense",
+        "title": "Administration expense",
+        "originalPath": "/features/administration-expense"
+      },
+      {
+        "id": "distribution-file-generation",
+        "title": "Distribution file generation",
+        "originalPath": "/features/distribution-file-generation"
+      },
+      {
+        "id": "residual-fund-calculation",
+        "title": "Residual fund calculation",
+        "originalPath": "/features/residual-fund-calculation"
+      },
+      {
+        "id": "firm-and-engagement-library",
+        "title": "Firm and engagement library",
+        "originalPath": "/features/firm-and-engagement-library"
+      },
+      {
+        "id": "timekeeper-authorization",
+        "title": "Timekeeper authorization",
+        "originalPath": "/features/timekeeper-authorization"
+      },
+      {
+        "id": "legal-owner-approval-workflow",
+        "title": "Legal owner approval workflow",
+        "originalPath": "/features/legal-owner-approval-workflow"
+      },
+      {
+        "id": "firm-matter-and-savings-analytics",
+        "title": "Firm matter and savings analytics",
+        "originalPath": "/features/firm-matter-and-savings-analytics"
+      },
+      {
+        "id": "patent-license-library",
+        "title": "Patent license library",
+        "originalPath": "/features/patent-license-library"
+      },
+      {
+        "id": "patent-family-registry",
+        "title": "Patent family registry",
+        "originalPath": "/features/patent-family-registry"
+      },
+      {
+        "id": "licensed-product-mapping",
+        "title": "Licensed product mapping",
+        "originalPath": "/features/licensed-product-mapping"
+      },
+      {
+        "id": "per-unit-calculation",
+        "title": "Per-unit calculation",
+        "originalPath": "/features/per-unit-calculation"
+      },
+      {
+        "id": "minimum-guarantee",
+        "title": "Minimum guarantee",
+        "originalPath": "/features/minimum-guarantee"
+      },
+      {
+        "id": "sublicense-income-share",
+        "title": "Sublicense income share",
+        "originalPath": "/features/sublicense-income-share"
+      },
+      {
+        "id": "licensee-examination-workflow",
+        "title": "Licensee examination workflow",
+        "originalPath": "/features/licensee-examination-workflow"
+      },
+      {
+        "id": "patent-product-analytics",
+        "title": "Patent product analytics",
+        "originalPath": "/features/patent-product-analytics"
+      },
+      {
+        "id": "complaint-auto-routing-triage",
+        "title": "Complaint auto routing triage",
+        "originalPath": "/features/complaint-auto-routing-triage"
+      },
+      {
+        "id": "tools-complaint-triage",
+        "title": "Complaint triage",
+        "originalPath": "/features/tools-complaint-triage"
+      },
+      {
+        "id": "chat",
+        "title": "Contract Assistant",
+        "originalPath": "/features/chat"
+      },
+      {
+        "id": "review-contract",
+        "title": "Review Contract",
+        "originalPath": "/features/review-contract"
+      },
+      {
+        "id": "generate-clause",
+        "title": "Generate Clause",
+        "originalPath": "/features/generate-clause"
+      },
+      {
+        "id": "compare-contracts",
+        "title": "Compare Contracts",
+        "originalPath": "/features/compare-contracts"
+      },
+      {
+        "id": "negotiate",
+        "title": "Negotiation Strategy",
+        "originalPath": "/features/negotiate"
+      },
+      {
+        "id": "extract-exhibit-metadata",
+        "title": "Extract Exhibit Metadata",
+        "originalPath": "/features/extract-exhibit-metadata"
+      },
+      {
+        "id": "deposition-summary",
+        "title": "Deposition Summary",
+        "originalPath": "/features/deposition-summary"
+      },
+      {
+        "id": "generate-index",
+        "title": "Index / Keyword Generation",
+        "originalPath": "/features/generate-index"
+      },
+      {
+        "id": "new",
+        "title": "New",
+        "originalPath": "/features/new"
+      },
+      {
+        "id": "assessments",
+        "title": "Assessments",
+        "originalPath": "/features/assessments"
+      },
+      {
+        "id": "new-tools",
+        "title": "New tools",
+        "originalPath": "/features/new-tools"
+      },
+      {
+        "id": "review-sets",
+        "title": "Review Sets",
+        "originalPath": "/features/review-sets"
+      },
+      {
+        "id": "review-assignments",
+        "title": "Review Assignments",
+        "originalPath": "/features/review-assignments"
+      },
+      {
+        "id": "governance",
+        "title": "AI Governance",
+        "originalPath": "/features/governance"
+      },
+      {
+        "id": "witness-vetting",
+        "title": "Witness Vetting",
+        "originalPath": "/features/witness-vetting"
+      },
+      {
+        "id": "claims-generator",
+        "title": "Claims Generator",
+        "originalPath": "/features/claims-generator"
+      },
+      {
+        "id": "portfolio-analytics",
+        "title": "Portfolio Analytics",
+        "originalPath": "/features/portfolio-analytics"
+      },
+      {
+        "id": "competitor-track",
+        "title": "Competitor Innovation Track",
+        "originalPath": "/features/competitor-track"
+      },
+      {
+        "id": "uspto-status",
+        "title": "USPTO Status (creds)",
+        "originalPath": "/features/uspto-status"
+      },
+      {
+        "id": "pct-coordinator",
+        "title": "PCT Coordinator",
+        "originalPath": "/features/pct-coordinator"
+      },
+      {
+        "id": "literature-search",
+        "title": "Literature Search (creds)",
+        "originalPath": "/features/literature-search"
+      },
+      {
+        "id": "inventor-tracking",
+        "title": "Inventor Tracking",
+        "originalPath": "/features/inventor-tracking"
+      },
+      {
+        "id": "claim-infringement-checker",
+        "title": "claim infringement checker",
+        "originalPath": "/features/claim-infringement-checker"
+      },
+      {
+        "id": "claims-without-claim",
+        "title": "claims without claim",
+        "originalPath": "/features/claims-without-claim"
+      },
+      {
+        "id": "property-ownership-chain",
+        "title": "property ownership chain",
+        "originalPath": "/features/property-ownership-chain"
+      },
+      {
+        "id": "coi-cite-memo",
+        "title": "AI · COI Cite Memo",
+        "originalPath": "/features/coi-cite-memo"
+      },
+      {
+        "id": "hearing-prep-brief",
+        "title": "AI · Hearing Prep Brief",
+        "originalPath": "/features/hearing-prep-brief"
+      },
+      {
+        "id": "executive-brief",
+        "title": "AI · Executive Brief",
+        "originalPath": "/features/executive-brief"
+      },
+      {
+        "id": "interpreter-match",
+        "title": "AI · Interpreter Match",
+        "originalPath": "/features/interpreter-match"
+      },
+      {
+        "id": "country-conditions-summary",
+        "title": "AI · Country Conditions Summary",
+        "originalPath": "/features/country-conditions-summary"
+      },
+      {
+        "id": "deportation-relief-options",
+        "title": "AI · Deportation Relief Options",
+        "originalPath": "/features/deportation-relief-options"
+      },
+      {
+        "id": "family-reunification-plan",
+        "title": "AI · Family Reunification Plan",
+        "originalPath": "/features/family-reunification-plan"
+      },
+      {
+        "id": "attorney-handoff-summary",
+        "title": "AI · Attorney Handoff Summary",
+        "originalPath": "/features/attorney-handoff-summary"
+      },
+      {
+        "id": "partner-org-referral",
+        "title": "AI · Partner Org Referral",
+        "originalPath": "/features/partner-org-referral"
+      },
+      {
+        "id": "donor-impact-report",
+        "title": "AI · Donor Impact Report",
+        "originalPath": "/features/donor-impact-report"
+      },
+      {
+        "id": "court-calendar-conflicts",
+        "title": "AI · Court Calendar Conflicts",
+        "originalPath": "/features/court-calendar-conflicts"
+      },
+      {
+        "id": "coi-briefer-bundle",
+        "title": "Coi briefer bundle",
+        "originalPath": "/features/coi-briefer-bundle"
+      },
+      {
+        "id": "hearing-qa-simulator",
+        "title": "Hearing qa simulator",
+        "originalPath": "/features/hearing-qa-simulator"
+      },
+      {
+        "id": "credible-fear-interview-prep",
+        "title": "Credible fear interview prep",
+        "originalPath": "/features/credible-fear-interview-prep"
+      },
+      {
+        "id": "market-valuation-engine-trained-on-historical-contracts",
+        "title": "market valuation engine trained on historical contracts",
+        "originalPath": "/features/market-valuation-engine-trained-on-historical-contracts"
+      },
+      {
+        "id": "ai-driven-player-valuation-models-page-exists-no",
+        "title": "ai driven player valuation models page exists no",
+        "originalPath": "/features/ai-driven-player-valuation-models-page-exists-no"
+      },
+      {
+        "id": "enforce",
+        "title": "Enforcement Advisor",
+        "originalPath": "/features/enforce"
+      },
+      {
+        "id": "domain",
+        "title": "Domain Scanner",
+        "originalPath": "/features/domain"
+      },
+      {
+        "id": "legal",
+        "title": "Legal Strategy",
+        "originalPath": "/features/legal"
+      },
+      {
+        "id": "triage",
+        "title": "Alert Triage",
+        "originalPath": "/features/triage"
+      },
+      {
+        "id": "assess",
+        "title": "Trademark Assessment",
+        "originalPath": "/features/assess"
+      },
+      {
+        "id": "market-expansion",
+        "title": "Market Expansion Scouting",
+        "originalPath": "/features/market-expansion"
+      },
+      {
+        "id": "cease-desist",
+        "title": "C&D Generator",
+        "originalPath": "/features/cease-desist"
+      },
+      {
+        "id": "hub",
+        "title": "Hub",
+        "originalPath": "/features/hub"
+      },
+      {
+        "id": "domain-watcher",
+        "title": "Domain watcher",
+        "originalPath": "/features/domain-watcher"
+      },
+      {
+        "id": "api-ai-communications-suggestions",
+        "title": "Suggestions",
+        "originalPath": "/features/api-ai-communications-suggestions"
+      },
+      {
+        "id": "api-document-summary-recent",
+        "title": "Recent",
+        "originalPath": "/features/api-document-summary-recent"
+      },
+      {
+        "id": "livomobile",
+        "title": "Livomobile work",
+        "originalPath": "/features/livomobile"
+      }
+    ]
+  },
+  {
+    "id": "ai-documents",
+    "title": "Writing, documents & knowledge",
+    "group": "AI assistants",
+    "path": "/assistants/ai-documents",
+    "featureIds": [
+      "documents",
+      "drafting",
+      "templates",
+      "contract-review",
+      "summaries",
+      "research",
+      "depositions",
+      "translation",
+      "opponent-analysis",
+      "trademarks",
+      "family-documents",
+      "legacy-messages",
+      "demand-letters",
+      "messages",
+      "redlines",
+      "tools-response-draft",
+      "draft-contract",
+      "summarize",
+      "proofread",
+      "terminology",
+      "realtime-rough-draft-qc",
+      "template-suggestion",
+      "patent-drafting",
+      "citation-analysis",
+      "asylum-narrative-draft",
+      "sponsor-petition-draft",
+      "declaration-redliner",
+      "translation-helper",
+      "draft-scouting",
+      "ceasedesist",
+      "report",
+      "cnd-attorney",
+      "automated-c-d-letter-drafting-with-jurisdictional-legal",
+      "ai-for-automated-cease-and-desist-drafting-beyond-stub"
+    ],
+    "ai": true,
+    "representativeId": "documents",
+    "description": "One assistant for 34 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "documents",
+        "title": "Documents",
+        "originalPath": "/features/documents"
+      },
+      {
+        "id": "drafting",
+        "title": "Document drafting",
+        "originalPath": "/features/drafting"
+      },
+      {
+        "id": "templates",
+        "title": "Document templates",
+        "originalPath": "/features/templates"
+      },
+      {
+        "id": "contract-review",
+        "title": "Contract review",
+        "originalPath": "/features/contract-review"
+      },
+      {
+        "id": "summaries",
+        "title": "Document summaries",
+        "originalPath": "/features/summaries"
+      },
+      {
+        "id": "research",
+        "title": "Legal research & citations",
+        "originalPath": "/features/research"
+      },
+      {
+        "id": "depositions",
+        "title": "Deposition summaries",
+        "originalPath": "/features/depositions"
+      },
+      {
+        "id": "translation",
+        "title": "Translation & language detection",
+        "originalPath": "/features/translation"
+      },
+      {
+        "id": "opponent-analysis",
+        "title": "Opponent research",
+        "originalPath": "/features/opponent-analysis"
+      },
+      {
+        "id": "trademarks",
+        "title": "Trademark research",
+        "originalPath": "/features/trademarks"
+      },
+      {
+        "id": "family-documents",
+        "title": "Family law documents",
+        "originalPath": "/features/family-documents"
+      },
+      {
+        "id": "legacy-messages",
+        "title": "Legacy messages & delivery plans",
+        "originalPath": "/features/legacy-messages"
+      },
+      {
+        "id": "demand-letters",
+        "title": "Demand letters",
+        "originalPath": "/features/demand-letters"
+      },
+      {
+        "id": "messages",
+        "title": "Messages & correspondence",
+        "originalPath": "/features/messages"
+      },
+      {
+        "id": "redlines",
+        "title": "Redlines & version comparison",
+        "originalPath": "/features/redlines"
+      },
+      {
+        "id": "tools-response-draft",
+        "title": "Response draft",
+        "originalPath": "/features/tools-response-draft"
+      },
+      {
+        "id": "draft-contract",
+        "title": "Draft Contract",
+        "originalPath": "/features/draft-contract"
+      },
+      {
+        "id": "summarize",
+        "title": "Summarize Contract",
+        "originalPath": "/features/summarize"
+      },
+      {
+        "id": "proofread",
+        "title": "Transcript Proofreading",
+        "originalPath": "/features/proofread"
+      },
+      {
+        "id": "terminology",
+        "title": "Terminology Research",
+        "originalPath": "/features/terminology"
+      },
+      {
+        "id": "realtime-rough-draft-qc",
+        "title": "Realtime rough draft qc",
+        "originalPath": "/features/realtime-rough-draft-qc"
+      },
+      {
+        "id": "template-suggestion",
+        "title": "Template Suggestion",
+        "originalPath": "/features/template-suggestion"
+      },
+      {
+        "id": "patent-drafting",
+        "title": "Patent Drafting",
+        "originalPath": "/features/patent-drafting"
+      },
+      {
+        "id": "citation-analysis",
+        "title": "Citation Analysis",
+        "originalPath": "/features/citation-analysis"
+      },
+      {
+        "id": "asylum-narrative-draft",
+        "title": "AI · Asylum Narrative Draft",
+        "originalPath": "/features/asylum-narrative-draft"
+      },
+      {
+        "id": "sponsor-petition-draft",
+        "title": "AI · Sponsor Petition Draft",
+        "originalPath": "/features/sponsor-petition-draft"
+      },
+      {
+        "id": "declaration-redliner",
+        "title": "Declaration redliner",
+        "originalPath": "/features/declaration-redliner"
+      },
+      {
+        "id": "translation-helper",
+        "title": "Translation helper",
+        "originalPath": "/features/translation-helper"
+      },
+      {
+        "id": "draft-scouting",
+        "title": "Draft Scouting",
+        "originalPath": "/features/draft-scouting"
+      },
+      {
+        "id": "ceasedesist",
+        "title": "C&D Letter Generator",
+        "originalPath": "/features/ceasedesist"
+      },
+      {
+        "id": "report",
+        "title": "Report Generator",
+        "originalPath": "/features/report"
+      },
+      {
+        "id": "cnd-attorney",
+        "title": "Attorney C&D Letter",
+        "originalPath": "/features/cnd-attorney"
+      },
+      {
+        "id": "automated-c-d-letter-drafting-with-jurisdictional-legal",
+        "title": "automated c d letter drafting with jurisdictional legal",
+        "originalPath": "/features/automated-c-d-letter-drafting-with-jurisdictional-legal"
+      },
+      {
+        "id": "ai-for-automated-cease-and-desist-drafting-beyond-stub",
+        "title": "ai for automated cease and desist drafting beyond stub",
+        "originalPath": "/features/ai-for-automated-cease-and-desist-drafting-beyond-stub"
+      }
+    ]
+  },
+  {
+    "id": "ai-quality",
+    "title": "Risk, quality & compliance",
+    "group": "AI assistants",
+    "path": "/assistants/ai-quality",
+    "featureIds": [
+      "discovery",
+      "compliance",
+      "immigration-compliance",
+      "rfe",
+      "evidence",
+      "regulatory-impact",
+      "eligibility-validation",
+      "lien-holdback-control",
+      "rate-and-increase-validation",
+      "task-and-activity-code-validation",
+      "travel-and-disbursement-audit",
+      "territory-eligibility",
+      "analyze-risk",
+      "check-compliance",
+      "predictive-risk-escalation",
+      "beneficiaries-goals-referrals-lack-ai-endpoints-for-risk-pre",
+      "servicesdirectory-lacks-ai-matching-eligibility-scoring",
+      "client-risk-score",
+      "infringement-risk",
+      "evidence-gap-analyze",
+      "hardship-evidence-suggest",
+      "regulatory-update-brief",
+      "benefits-medicaid-eligibility",
+      "risk",
+      "franchise-compliance"
+    ],
+    "ai": true,
+    "representativeId": "discovery",
+    "description": "One assistant for 25 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "discovery",
+        "title": "Discovery & evidence review",
+        "originalPath": "/features/discovery"
+      },
+      {
+        "id": "compliance",
+        "title": "Multi-jurisdiction compliance",
+        "originalPath": "/features/compliance"
+      },
+      {
+        "id": "immigration-compliance",
+        "title": "Immigration compliance",
+        "originalPath": "/features/immigration-compliance"
+      },
+      {
+        "id": "rfe",
+        "title": "Requests for evidence",
+        "originalPath": "/features/rfe"
+      },
+      {
+        "id": "evidence",
+        "title": "Evidence organization",
+        "originalPath": "/features/evidence"
+      },
+      {
+        "id": "regulatory-impact",
+        "title": "Regulatory change assessments",
+        "originalPath": "/features/regulatory-impact"
+      },
+      {
+        "id": "eligibility-validation",
+        "title": "Eligibility validation",
+        "originalPath": "/features/eligibility-validation"
+      },
+      {
+        "id": "lien-holdback-control",
+        "title": "Lien holdback control",
+        "originalPath": "/features/lien-holdback-control"
+      },
+      {
+        "id": "rate-and-increase-validation",
+        "title": "Rate and increase validation",
+        "originalPath": "/features/rate-and-increase-validation"
+      },
+      {
+        "id": "task-and-activity-code-validation",
+        "title": "Task and activity code validation",
+        "originalPath": "/features/task-and-activity-code-validation"
+      },
+      {
+        "id": "travel-and-disbursement-audit",
+        "title": "Travel and disbursement audit",
+        "originalPath": "/features/travel-and-disbursement-audit"
+      },
+      {
+        "id": "territory-eligibility",
+        "title": "Territory eligibility",
+        "originalPath": "/features/territory-eligibility"
+      },
+      {
+        "id": "analyze-risk",
+        "title": "Risk Analysis",
+        "originalPath": "/features/analyze-risk"
+      },
+      {
+        "id": "check-compliance",
+        "title": "Compliance Check",
+        "originalPath": "/features/check-compliance"
+      },
+      {
+        "id": "predictive-risk-escalation",
+        "title": "Predictive risk escalation",
+        "originalPath": "/features/predictive-risk-escalation"
+      },
+      {
+        "id": "beneficiaries-goals-referrals-lack-ai-endpoints-for-risk-pre",
+        "title": "Beneficiaries goals referrals lack ai endpoints for risk pre",
+        "originalPath": "/features/beneficiaries-goals-referrals-lack-ai-endpoints-for-risk-pre"
+      },
+      {
+        "id": "servicesdirectory-lacks-ai-matching-eligibility-scoring",
+        "title": "Servicesdirectory lacks ai matching eligibility scoring",
+        "originalPath": "/features/servicesdirectory-lacks-ai-matching-eligibility-scoring"
+      },
+      {
+        "id": "client-risk-score",
+        "title": "Client Risk Score",
+        "originalPath": "/features/client-risk-score"
+      },
+      {
+        "id": "infringement-risk",
+        "title": "Infringement Risk Score",
+        "originalPath": "/features/infringement-risk"
+      },
+      {
+        "id": "evidence-gap-analyze",
+        "title": "AI · Evidence Gap Analyze",
+        "originalPath": "/features/evidence-gap-analyze"
+      },
+      {
+        "id": "hardship-evidence-suggest",
+        "title": "AI · Hardship Evidence Suggest",
+        "originalPath": "/features/hardship-evidence-suggest"
+      },
+      {
+        "id": "regulatory-update-brief",
+        "title": "AI · Regulatory Update Brief",
+        "originalPath": "/features/regulatory-update-brief"
+      },
+      {
+        "id": "benefits-medicaid-eligibility",
+        "title": "Medicaid eligibility",
+        "originalPath": "/features/benefits-medicaid-eligibility"
+      },
+      {
+        "id": "risk",
+        "title": "AI Risk Scanner",
+        "originalPath": "/features/risk"
+      },
+      {
+        "id": "franchise-compliance",
+        "title": "Franchise Compliance Scoring",
+        "originalPath": "/features/franchise-compliance"
+      }
+    ]
+  },
+  {
+    "id": "ai-insights",
+    "title": "Insights & recommendations",
+    "group": "AI assistants",
+    "path": "/assistants/ai-insights",
+    "featureIds": [
+      "patents",
+      "lease-analysis",
+      "negotiation-sentiment",
+      "duplicate-time-and-expense-detection",
+      "insights",
+      "resolution-prediction",
+      "root-cause-analysis-automation",
+      "analyze-case-timeline",
+      "predict-deposition-needs",
+      "optimize-delivery-routing",
+      "analyze-exhibit-relevance",
+      "predictive-case-complexity-scoring",
+      "cases-lacks-analyze-case-timeline-or-predict-deposition-need",
+      "exhibits-lacks-extract-exhibit-metadata-or-analyze-exhibit-r",
+      "goal-achievement-prediction",
+      "predictive-coding",
+      "analyses",
+      "prior-art-analysis",
+      "infringement-analysis",
+      "landscape-analysis",
+      "claim-broadness",
+      "rejection-predict",
+      "market-threat",
+      "licensing",
+      "predictive",
+      "international-filing-optimizer",
+      "trade-analysis",
+      "injury-timeline-predictor-correlating-injury-type-with-return",
+      "multi-team-trade-scenario-analyzer-with-cap-implications-and",
+      "injury-performance-regression-prediction",
+      "ai-suggested-negotiation-tactics-beyond-static-analysis",
+      "endorsement-deal-recommender",
+      "infringement",
+      "counterfeit",
+      "competitor",
+      "social",
+      "marketplace",
+      "competitors",
+      "logo-analyzer",
+      "ai-for-counterfeit-image-analysis-computer-vision",
+      "predictive-enforcement-outcome-model"
+    ],
+    "ai": true,
+    "representativeId": "patents",
+    "description": "One assistant for 41 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "patents",
+        "title": "Patent analysis",
+        "originalPath": "/features/patents"
+      },
+      {
+        "id": "lease-analysis",
+        "title": "Lease analysis",
+        "originalPath": "/features/lease-analysis"
+      },
+      {
+        "id": "negotiation-sentiment",
+        "title": "Negotiation communication analysis",
+        "originalPath": "/features/negotiation-sentiment"
+      },
+      {
+        "id": "duplicate-time-and-expense-detection",
+        "title": "Duplicate time and expense detection",
+        "originalPath": "/features/duplicate-time-and-expense-detection"
+      },
+      {
+        "id": "insights",
+        "title": "Insights",
+        "originalPath": "/features/insights"
+      },
+      {
+        "id": "resolution-prediction",
+        "title": "Resolution prediction",
+        "originalPath": "/features/resolution-prediction"
+      },
+      {
+        "id": "root-cause-analysis-automation",
+        "title": "Root cause analysis automation",
+        "originalPath": "/features/root-cause-analysis-automation"
+      },
+      {
+        "id": "analyze-case-timeline",
+        "title": "Analyze Case Timeline",
+        "originalPath": "/features/analyze-case-timeline"
+      },
+      {
+        "id": "predict-deposition-needs",
+        "title": "Predict Deposition Needs",
+        "originalPath": "/features/predict-deposition-needs"
+      },
+      {
+        "id": "optimize-delivery-routing",
+        "title": "Optimize Delivery Routing",
+        "originalPath": "/features/optimize-delivery-routing"
+      },
+      {
+        "id": "analyze-exhibit-relevance",
+        "title": "Analyze Exhibit Relevance",
+        "originalPath": "/features/analyze-exhibit-relevance"
+      },
+      {
+        "id": "predictive-case-complexity-scoring",
+        "title": "Predictive case complexity scoring",
+        "originalPath": "/features/predictive-case-complexity-scoring"
+      },
+      {
+        "id": "cases-lacks-analyze-case-timeline-or-predict-deposition-need",
+        "title": "Cases lacks analyze case timeline or predict deposition need",
+        "originalPath": "/features/cases-lacks-analyze-case-timeline-or-predict-deposition-need"
+      },
+      {
+        "id": "exhibits-lacks-extract-exhibit-metadata-or-analyze-exhibit-r",
+        "title": "Exhibits lacks extract exhibit metadata or analyze exhibit r",
+        "originalPath": "/features/exhibits-lacks-extract-exhibit-metadata-or-analyze-exhibit-r"
+      },
+      {
+        "id": "goal-achievement-prediction",
+        "title": "Goal achievement prediction",
+        "originalPath": "/features/goal-achievement-prediction"
+      },
+      {
+        "id": "predictive-coding",
+        "title": "Predictive Coding",
+        "originalPath": "/features/predictive-coding"
+      },
+      {
+        "id": "analyses",
+        "title": "AI Analysis",
+        "originalPath": "/features/analyses"
+      },
+      {
+        "id": "prior-art-analysis",
+        "title": "Prior Art Analysis",
+        "originalPath": "/features/prior-art-analysis"
+      },
+      {
+        "id": "infringement-analysis",
+        "title": "Infringement Analysis",
+        "originalPath": "/features/infringement-analysis"
+      },
+      {
+        "id": "landscape-analysis",
+        "title": "Landscape Analysis",
+        "originalPath": "/features/landscape-analysis"
+      },
+      {
+        "id": "claim-broadness",
+        "title": "Claim Broadness Score",
+        "originalPath": "/features/claim-broadness"
+      },
+      {
+        "id": "rejection-predict",
+        "title": "Rejection Predict",
+        "originalPath": "/features/rejection-predict"
+      },
+      {
+        "id": "market-threat",
+        "title": "Market Threat Score",
+        "originalPath": "/features/market-threat"
+      },
+      {
+        "id": "licensing",
+        "title": "Licensing Recommendation",
+        "originalPath": "/features/licensing"
+      },
+      {
+        "id": "predictive",
+        "title": "Predictive",
+        "originalPath": "/features/predictive"
+      },
+      {
+        "id": "international-filing-optimizer",
+        "title": "international filing optimizer",
+        "originalPath": "/features/international-filing-optimizer"
+      },
+      {
+        "id": "trade-analysis",
+        "title": "Trade Analysis",
+        "originalPath": "/features/trade-analysis"
+      },
+      {
+        "id": "injury-timeline-predictor-correlating-injury-type-with-return",
+        "title": "injury timeline predictor correlating injury type with return",
+        "originalPath": "/features/injury-timeline-predictor-correlating-injury-type-with-return"
+      },
+      {
+        "id": "multi-team-trade-scenario-analyzer-with-cap-implications-and",
+        "title": "multi team trade scenario analyzer with cap implications and",
+        "originalPath": "/features/multi-team-trade-scenario-analyzer-with-cap-implications-and"
+      },
+      {
+        "id": "injury-performance-regression-prediction",
+        "title": "injury performance regression prediction",
+        "originalPath": "/features/injury-performance-regression-prediction"
+      },
+      {
+        "id": "ai-suggested-negotiation-tactics-beyond-static-analysis",
+        "title": "ai suggested negotiation tactics beyond static analysis",
+        "originalPath": "/features/ai-suggested-negotiation-tactics-beyond-static-analysis"
+      },
+      {
+        "id": "endorsement-deal-recommender",
+        "title": "endorsement deal recommender",
+        "originalPath": "/features/endorsement-deal-recommender"
+      },
+      {
+        "id": "infringement",
+        "title": "Infringement Analyzer",
+        "originalPath": "/features/infringement"
+      },
+      {
+        "id": "counterfeit",
+        "title": "Counterfeit Detector",
+        "originalPath": "/features/counterfeit"
+      },
+      {
+        "id": "competitor",
+        "title": "Competitor Analyzer",
+        "originalPath": "/features/competitor"
+      },
+      {
+        "id": "social",
+        "title": "Social Threat Analysis",
+        "originalPath": "/features/social"
+      },
+      {
+        "id": "marketplace",
+        "title": "Marketplace Analyzer",
+        "originalPath": "/features/marketplace"
+      },
+      {
+        "id": "competitors",
+        "title": "Competitor Analysis",
+        "originalPath": "/features/competitors"
+      },
+      {
+        "id": "logo-analyzer",
+        "title": "Logo analyzer",
+        "originalPath": "/features/logo-analyzer"
+      },
+      {
+        "id": "ai-for-counterfeit-image-analysis-computer-vision",
+        "title": "ai for counterfeit image analysis computer vision",
+        "originalPath": "/features/ai-for-counterfeit-image-analysis-computer-vision"
+      },
+      {
+        "id": "predictive-enforcement-outcome-model",
+        "title": "predictive enforcement outcome model",
+        "originalPath": "/features/predictive-enforcement-outcome-model"
+      }
+    ]
+  },
+  {
+    "id": "ai-finance",
+    "title": "Finance & reconciliation",
+    "group": "AI assistants",
+    "path": "/assistants/ai-finance",
+    "featureIds": [
+      "billing",
+      "fee-estimator",
+      "financial-disclosure",
+      "family-settlement",
+      "estate-tax",
+      "settlement",
+      "contract-pricing",
+      "settlement-term-library",
+      "attorney-fee-allocation",
+      "tax-withholding-control",
+      "returned-payment-workflow",
+      "bank-reconciliation",
+      "settlement-claimant-analytics",
+      "matter-and-budget-registry",
+      "ledes-invoice-ingestion",
+      "block-billing-detection",
+      "billing-guideline-rules-engine",
+      "invoice-exception-workbench",
+      "adjustment-and-payment-reconciliation",
+      "royalty-rate-calculation",
+      "royalty-report-audit",
+      "cash-reconciliation",
+      "predictive-refund-scoring",
+      "tools-refund-recommendation",
+      "invoice-narrative",
+      "fee-optimization"
+    ],
+    "ai": true,
+    "representativeId": "billing",
+    "description": "One assistant for 26 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "billing",
+        "title": "Invoices & billing",
+        "originalPath": "/features/billing"
+      },
+      {
+        "id": "fee-estimator",
+        "title": "Court fees & cost estimates",
+        "originalPath": "/features/fee-estimator"
+      },
+      {
+        "id": "financial-disclosure",
+        "title": "Financial disclosure",
+        "originalPath": "/features/financial-disclosure"
+      },
+      {
+        "id": "family-settlement",
+        "title": "Family settlement agreements",
+        "originalPath": "/features/family-settlement"
+      },
+      {
+        "id": "estate-tax",
+        "title": "Estate tax planning",
+        "originalPath": "/features/estate-tax"
+      },
+      {
+        "id": "settlement",
+        "title": "Settlement evaluation",
+        "originalPath": "/features/settlement"
+      },
+      {
+        "id": "contract-pricing",
+        "title": "Contract pricing scenarios",
+        "originalPath": "/features/contract-pricing"
+      },
+      {
+        "id": "settlement-term-library",
+        "title": "Settlement term library",
+        "originalPath": "/features/settlement-term-library"
+      },
+      {
+        "id": "attorney-fee-allocation",
+        "title": "Attorney fee allocation",
+        "originalPath": "/features/attorney-fee-allocation"
+      },
+      {
+        "id": "tax-withholding-control",
+        "title": "Tax withholding control",
+        "originalPath": "/features/tax-withholding-control"
+      },
+      {
+        "id": "returned-payment-workflow",
+        "title": "Returned payment workflow",
+        "originalPath": "/features/returned-payment-workflow"
+      },
+      {
+        "id": "bank-reconciliation",
+        "title": "Bank reconciliation",
+        "originalPath": "/features/bank-reconciliation"
+      },
+      {
+        "id": "settlement-claimant-analytics",
+        "title": "Settlement claimant analytics",
+        "originalPath": "/features/settlement-claimant-analytics"
+      },
+      {
+        "id": "matter-and-budget-registry",
+        "title": "Matter and budget registry",
+        "originalPath": "/features/matter-and-budget-registry"
+      },
+      {
+        "id": "ledes-invoice-ingestion",
+        "title": "LEDES invoice ingestion",
+        "originalPath": "/features/ledes-invoice-ingestion"
+      },
+      {
+        "id": "block-billing-detection",
+        "title": "Block billing detection",
+        "originalPath": "/features/block-billing-detection"
+      },
+      {
+        "id": "billing-guideline-rules-engine",
+        "title": "Billing-guideline rules engine",
+        "originalPath": "/features/billing-guideline-rules-engine"
+      },
+      {
+        "id": "invoice-exception-workbench",
+        "title": "Invoice exception workbench",
+        "originalPath": "/features/invoice-exception-workbench"
+      },
+      {
+        "id": "adjustment-and-payment-reconciliation",
+        "title": "Adjustment and payment reconciliation",
+        "originalPath": "/features/adjustment-and-payment-reconciliation"
+      },
+      {
+        "id": "royalty-rate-calculation",
+        "title": "Royalty rate calculation",
+        "originalPath": "/features/royalty-rate-calculation"
+      },
+      {
+        "id": "royalty-report-audit",
+        "title": "Royalty report audit",
+        "originalPath": "/features/royalty-report-audit"
+      },
+      {
+        "id": "cash-reconciliation",
+        "title": "Cash reconciliation",
+        "originalPath": "/features/cash-reconciliation"
+      },
+      {
+        "id": "predictive-refund-scoring",
+        "title": "Predictive refund scoring",
+        "originalPath": "/features/predictive-refund-scoring"
+      },
+      {
+        "id": "tools-refund-recommendation",
+        "title": "Refund recommendation",
+        "originalPath": "/features/tools-refund-recommendation"
+      },
+      {
+        "id": "invoice-narrative",
+        "title": "Invoice Narrative",
+        "originalPath": "/features/invoice-narrative"
+      },
+      {
+        "id": "fee-optimization",
+        "title": "Fee Optimization",
+        "originalPath": "/features/fee-optimization"
+      }
+    ]
+  },
+  {
+    "id": "ai-planning",
+    "title": "Planning & scheduling",
+    "group": "AI assistants",
+    "path": "/assistants/ai-planning",
+    "featureIds": [
+      "staffing-and-seniority-review",
+      "optimize-schedule"
+    ],
+    "ai": true,
+    "representativeId": "staffing-and-seniority-review",
+    "description": "One assistant for 2 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "staffing-and-seniority-review",
+        "title": "Staffing and seniority review",
+        "originalPath": "/features/staffing-and-seniority-review"
+      },
+      {
+        "id": "optimize-schedule",
+        "title": "Schedule Optimization",
+        "originalPath": "/features/optimize-schedule"
+      }
+    ]
+  },
+  {
+    "id": "ai-growth",
+    "title": "Marketing & customer growth",
+    "group": "AI assistants",
+    "path": "/assistants/ai-growth",
+    "featureIds": [
+      "licensee-sales-ingestion",
+      "gross-sales-validation",
+      "net-sales-deduction-audit",
+      "tools-sentiment-analysis",
+      "endorsement-deal-recommender-matching-athletes-to-brand-opportunities",
+      "sentiment",
+      "dilution-score"
+    ],
+    "ai": true,
+    "representativeId": "licensee-sales-ingestion",
+    "description": "One assistant for 7 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "licensee-sales-ingestion",
+        "title": "Licensee sales ingestion",
+        "originalPath": "/features/licensee-sales-ingestion"
+      },
+      {
+        "id": "gross-sales-validation",
+        "title": "Gross sales validation",
+        "originalPath": "/features/gross-sales-validation"
+      },
+      {
+        "id": "net-sales-deduction-audit",
+        "title": "Net-sales deduction audit",
+        "originalPath": "/features/net-sales-deduction-audit"
+      },
+      {
+        "id": "tools-sentiment-analysis",
+        "title": "Sentiment analysis",
+        "originalPath": "/features/tools-sentiment-analysis"
+      },
+      {
+        "id": "endorsement-deal-recommender-matching-athletes-to-brand-opportunities",
+        "title": "endorsement deal recommender matching athletes to brand opportunities",
+        "originalPath": "/features/endorsement-deal-recommender-matching-athletes-to-brand-opportunities"
+      },
+      {
+        "id": "sentiment",
+        "title": "Sentiment Analyzer",
+        "originalPath": "/features/sentiment"
+      },
+      {
+        "id": "dilution-score",
+        "title": "Brand Dilution Score",
+        "originalPath": "/features/dilution-score"
+      }
+    ]
+  },
+  {
+    "id": "ai-creative",
+    "title": "Creative & design",
+    "group": "AI assistants",
+    "path": "/assistants/ai-creative",
+    "featureIds": [
+      "videosyncs-lacks-ai-driven-audio-video-alignment",
+      "history",
+      "logo"
+    ],
+    "ai": true,
+    "representativeId": "videosyncs-lacks-ai-driven-audio-video-alignment",
+    "description": "One assistant for 3 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "videosyncs-lacks-ai-driven-audio-video-alignment",
+        "title": "Videosyncs lacks ai driven audio video alignment",
+        "originalPath": "/features/videosyncs-lacks-ai-driven-audio-video-alignment"
+      },
+      {
+        "id": "history",
+        "title": "History",
+        "originalPath": "/features/history"
+      },
+      {
+        "id": "logo",
+        "title": "Logo Similarity",
+        "originalPath": "/features/logo"
+      }
+    ]
+  }
+]

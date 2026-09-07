@@ -1,0 +1,8 @@
+{
+  "id": "legal-platform",
+  "port": 46000,
+  "status": "passed",
+  "startScript": true,
+  "health": true,
+  "verifiedAt": "2026-09-07T14:38:23.387Z"
+}
