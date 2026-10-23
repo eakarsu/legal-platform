@@ -1,0 +1,28 @@
+{
+  "insights": [
+    {
+      "id": "insight-patents",
+      "feature": "patents",
+      "title": "Patent analysis insight",
+      "focus": "Summarize patent analysis records: totals, status mix, field coverage and recent matters."
+    },
+    {
+      "id": "insight-trademarks",
+      "feature": "trademarks",
+      "title": "Trademark research insight",
+      "focus": "Summarize trademark research records: totals, status mix, field coverage and recent marks."
+    },
+    {
+      "id": "insight-trust",
+      "feature": "trust",
+      "title": "Trust ledger insight",
+      "focus": "Summarize trust account records: totals, status mix, field coverage and recent ledger activity."
+    },
+    {
+      "id": "priority-actions",
+      "feature": "tasks",
+      "title": "Priority actions",
+      "focus": "Overdue and upcoming tasks and deadlines, including unassigned work."
+    }
+  ]
+}
